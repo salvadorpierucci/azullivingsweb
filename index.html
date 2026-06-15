@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Azul Livings Luján. Mobiliario y ambientación para eventos sociales y corporativos. Elevando el estándar de los eventos desde 2012."/>
+<meta property="og:title" content="Azul Livings Luján | Estilismo de Eventos"/>
+<meta property="og:description" content="Mobiliario y ambientación para eventos sociales y corporativos en Luján y alrededores."/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuCGfoubVba_XSdsntW_DxC_et7Mtn08NfYy09Rib919HHa96VjJ7kgf5B-KEwIsautfUptCI6Nu64plEPpQry0Q4Je1Muyih2xfx5oLSRY03V01EyIQZR2Jrj2Z8g6GRWRX95owaJdSVfRTi6ExQRovAtQjy_-6gMPVicafHYtUP2crw2qsz2vKtifpablO9vG_UGG99U0q4NwZGCAm4keV9sHwreiQLo6xh02pw3kkOLLASpZ1Lht10xy8MiIg_5pS_rp7TBCX5ng"/>
+<title>Azul Livings Luján | Estilismo de Eventos</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Hanken+Grotesk:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#c5a880",
+                        "on-primary": "#ffffff",
+                        "navy": "#3a5874",
+                        "navy-dark": "#2c4359",
+                        "navy-darker": "#1a2a3a",
+                        "ivory": "#fdfbf7",
+                        "ivory-dark": "#f4efe6",
+                        "charcoal": "#1a2a3a",
+                        "background": "#fdfbf7",
+                        "on-background": "#1a2a3a",
+                        "surface": "#fdfbf7",
+                        "on-surface": "#1a2a3a",
+                        "surface-variant": "#f4efe6",
+                        "on-surface-variant": "#4a5568",
+                        "outline-variant": "#c5a880"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "stack-sm": "8px",
+                        "stack-md": "16px",
+                        "margin-mobile": "24px",
+                        "stack-lg": "32px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "headline-sm": ["Playfair Display"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "400"}],
+                        "display-lg-mobile": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                    },
+                    "animation": {
+                        "breathing": "breathing 6s ease-in-out infinite",
+                        "pulse-soft": "pulse-soft 2s infinite"
+                    },
+                    "keyframes": {
+                        "breathing": {
+                            "0%, 100%": { transform: "scale(1)" },
+                            "50%": { transform: "scale(1.03)" }
+                        },
+                        "pulse-soft": {
+                            "0%": { boxShadow: "0 0 0 0 rgba(37, 211, 102, 0.4)" },
+                            "70%": { boxShadow: "0 0 0 15px rgba(37, 211, 102, 0)" },
+                            "100%": { boxShadow: "0 0 0 0 rgba(37, 211, 102, 0)" }
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 10px 40px -15px rgba(58, 88, 116, 0.08);
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 1s cubic-bezier(0.2, 0, 0.2, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        .gallery-item {
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        
+        .gallery-item.hidden {
+            display: none;
+        }
+        
+        .gallery-item {
+            cursor: zoom-in;
+        }
+        .nav-link-gold {
+            position: relative;
+            display: inline-block;
+        }
+        .nav-link-gold::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #c5a880;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+        }
+        .nav-link-gold:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        .separator-gold {
+            height: 1px;
+            width: 100%;
+            background: linear-gradient(to right, transparent, #c5a880, transparent);
+            opacity: 0.5;
+            margin: 0;
+            border: none;
+        }
+        /* Vista compacta para Galería "Todas" */
+        .compact-view .gallery-item img {
+            height: 250px !important;
+        }
+        /* Vista filtrada para evitar huecos */
+        .filtered-view .gallery-item img {
+            height: 300px !important;
+        }
+        @media (min-width: 768px) {
+            /* 4 fotos por fila en "Todas" */
+            .compact-view .gallery-item {
+                grid-column: span 3 / span 3 !important;
+            }
+            /* 3 fotos por fila al filtrar */
+            .filtered-view .gallery-item {
+                grid-column: span 4 / span 4 !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-navy/95 backdrop-blur-md border-b border-outline-variant/10 transition-all duration-300 py-2 shadow-sm" id="main-nav">
+<nav class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-stack-md max-w-container-max mx-auto">
+<a class="font-display-lg text-headline-sm tracking-tight text-primary" href="#">Azul Livings Luján</a>
+<div class="hidden md:flex items-center gap-stack-lg">
+<a class="font-label-md text-label-md text-ivory hover:text-primary transition-colors nav-link-gold" href="#">Inicio</a>
+<a class="font-label-md text-label-md text-ivory hover:text-primary transition-colors nav-link-gold" href="#nosotros">Nosotros</a>
+<a class="font-label-md text-label-md text-ivory hover:text-primary transition-colors nav-link-gold" href="#servicios">Servicios</a>
+<a class="font-label-md text-label-md text-ivory hover:text-primary transition-colors nav-link-gold" href="#galeria">Galeria</a>
+<a class="font-label-md text-label-md text-ivory hover:text-primary transition-colors nav-link-gold" href="#contacto">Contacto</a>
+<a class="bg-primary text-on-primary px-stack-lg py-2 rounded-full font-label-md text-label-md hover:bg-primary-container transition-all duration-300 active:scale-95" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">Consultar</a>
+</div>
+<button aria-label="Menú móvil" class="md:hidden text-primary" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<!-- Mobile Menu Overlay -->
+<div class="fixed inset-0 z-[60] bg-navy flex flex-col items-center justify-center gap-stack-lg transition-transform duration-500 translate-x-full" id="mobile-menu">
+<button aria-label="Cerrar menú" class="absolute top-margin-mobile right-margin-mobile text-primary" id="close-menu">
+<span class="material-symbols-outlined text-4xl">close</span>
+</button>
+<a class="font-display-lg text-headline-md text-ivory hover:text-primary nav-link-gold" href="#">Inicio</a>
+<a class="font-display-lg text-headline-md text-ivory hover:text-primary nav-link-gold" href="#nosotros">Nosotros</a>
+<a class="font-display-lg text-headline-md text-ivory hover:text-primary nav-link-gold" href="#servicios">Servicios</a>
+<a class="font-display-lg text-headline-md text-ivory hover:text-primary nav-link-gold" href="#galeria">Galeria</a>
+<a class="font-display-lg text-headline-md text-ivory hover:text-primary nav-link-gold" href="#contacto">Contacto</a>
+<a class="mt-stack-lg bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento">Consultar ahora</a>
+</div>
+<!-- Hero Section -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 parallax-wrapper">
+<img alt="Ambientación de eventos Azul Livings" class="w-full h-full object-cover brightness-75 scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGfoubVba_XSdsntW_DxC_et7Mtn08NfYy09Rib919HHa96VjJ7kgf5B-KEwIsautfUptCI6Nu64plEPpQry0Q4Je1Muyih2xfx5oLSRY03V01EyIQZR2Jrj2Z8g6GRWRX95owaJdSVfRTi6ExQRovAtQjy_-6gMPVicafHYtUP2crw2qsz2vKtifpablO9vG_UGG99U0q4NwZGCAm4keV9sHwreiQLo6xh02pw3kkOLLASpZ1Lht10xy8MiIg_5pS_rp7TBCX5ng"/>
+<div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-background/40"></div>
+</div>
+<div class="relative z-10 text-center px-margin-mobile max-w-4xl reveal active">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-stack-md leading-tight">
+            Creando espacios para disfrutar
+        </h1>
+<p class="font-body-lg text-body-lg text-white/90 mb-stack-lg max-w-2xl mx-auto">
+            Mobiliario y ambientación para eventos sociales y corporativos.
+        </p>
+<a class="inline-flex items-center gap-2 bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md hover:shadow-xl transition-all duration-300 magnetic-btn" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">
+<span>Consultar por WhatsApp</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-white/50">expand_more</span>
+</div>
+</section>
+
+<!-- Nosotros Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto overflow-hidden" id="nosotros">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="reveal">
+<div class="relative group">
+<img alt="Mariela, fundadora de Azul Livings" class="w-full aspect-[3/4] object-cover editorial-shadow grayscale hover:grayscale-0 transition-all duration-700 rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4Iwr_aYR2JDQmTNX9n9DRpvUPBE_Ky3H7918USoujEIAOhGxa7pcc0PnmioNWVNgbbYQCGafVLwBUTJKt0drndIIBo6bRHtmi6iGVM7k1sGs1_b4vgFGsgnJvSZPCdzUId4-svYOT7noYfsUYv3sfm21UawlLZnU029i9pThk0tSC9k7U8ImtQQcOhAzATj6ws7mKAwjeFcQsUuJYXpAYCyk-wdU238Eaa1Q8sj6gZABbcXAEOZmPphelZVzO5KskGjWRWcxlwes"/>
+<div class="absolute -bottom-8 -right-8 bg-navy-dark p-stack-lg hidden md:block editorial-shadow rounded-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary block mb-1">Tradición</span>
+<span class="font-display-lg text-headline-md text-ivory">Desde 2012</span>
+</div>
+</div>
+</div>
+<div class="md:pl-stack-lg reveal" style="transition-delay: 200ms;">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.2em] mb-stack-md block">Nuestra Historia</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-md text-on-surface mb-stack-lg">Mariela &amp; El arte de recibir</h2>
+<div class="space-y-stack-md font-body-md text-on-surface-variant leading-relaxed">
+<p>Azul Livings Luján nació en 2012 con la convicción de que cada encuentro merece ser celebrado en un entorno que refleje la esencia de quienes lo protagonizan.</p>
+<p>Mariela, fundadora y alma creativa, ha dedicado más de una década a curar piezas de mobiliario y diseñar atmósferas que fusionan la sofisticación con la calidez argentina.</p>
+<blockquote class="italic font-display-lg text-headline-sm text-primary py-stack-md border-l-2 border-primary-fixed pl-stack-md my-stack-lg">
+                    "Un social es mucho más que un evento, es un hermoso recuerdo en el tiempo con tus seres queridos."
+                </blockquote>
+</div>
+</div>
+</div>
+</section>
+<hr class="separator-gold">
+<!-- Servicios Section -->
+<section class="py-section-gap bg-navy" id="servicios">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-20 reveal">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.2em] mb-stack-sm block">Expertise</span>
+<h2 class="font-display-lg text-headline-md text-ivory mb-stack-md">Nuestros Servicios</h2>
+<p class="font-body-md text-ivory-dark">Soluciones integrales de estilismo para eventos que demandan distinción y un servicio impecable.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Bodas -->
+<div class="bg-ivory p-stack-lg editorial-shadow hover:-translate-y-2 transition-all duration-300 reveal group rounded-lg" style="transition-delay: 100ms;">
+<span class="material-symbols-outlined text-primary text-4xl mb-stack-md block group-hover:scale-110 transition-transform">favorite</span>
+<h3 class="font-display-lg text-headline-sm text-charcoal mb-2">Bodas</h3>
+<p class="font-body-md text-charcoal/80">Diseño personalizado para el día más importante, desde livings románticos hasta ceremonias memorables.</p>
+</div>
+<!-- XV Años -->
+<div class="bg-ivory p-stack-lg editorial-shadow hover:-translate-y-2 transition-all duration-300 reveal group rounded-lg" style="transition-delay: 200ms;">
+<span class="material-symbols-outlined text-primary text-4xl mb-stack-md block group-hover:scale-110 transition-transform">auto_awesome</span>
+<h3 class="font-display-lg text-headline-sm text-charcoal mb-2">XV Años</h3>
+<p class="font-body-md text-charcoal/80">Espacios dinámicos y sofisticados adaptados a las nuevas tendencias, creando el escenario perfecto para brillar.</p>
+</div>
+<!-- Eventos Corporativos -->
+<div class="bg-ivory p-stack-lg editorial-shadow hover:-translate-y-2 transition-all duration-300 reveal group rounded-lg" style="transition-delay: 300ms;">
+<span class="material-symbols-outlined text-primary text-4xl mb-stack-md block group-hover:scale-110 transition-transform">business_center</span>
+<h3 class="font-display-lg text-headline-sm text-charcoal mb-2">Eventos Corporativos</h3>
+<p class="font-body-md text-charcoal/80">Imagen institucional y profesionalismo. Ambientación para congresos, lanzamientos y cenas de gala.</p>
+</div>
+<!-- Alquiler de Mobiliario -->
+<div class="bg-ivory p-stack-lg editorial-shadow hover:-translate-y-2 transition-all duration-300 reveal group rounded-lg" style="transition-delay: 400ms;">
+<span class="material-symbols-outlined text-primary text-4xl mb-stack-md block group-hover:scale-110 transition-transform">chair</span>
+<h3 class="font-display-lg text-headline-sm text-charcoal mb-2">Alquiler de Mobiliario</h3>
+<p class="font-body-md text-charcoal/80">Catálogo exclusivo de piezas de alta calidad: sofás, mesas, sillas y complementos de diseño.</p>
+</div>
+<!-- Ambientaciones -->
+<div class="bg-ivory p-stack-lg editorial-shadow hover:-translate-y-2 transition-all duration-300 reveal group rounded-lg" style="transition-delay: 500ms;">
+<span class="material-symbols-outlined text-primary text-4xl mb-stack-md block group-hover:scale-110 transition-transform">temp_preferences_eco</span>
+<h3 class="font-display-lg text-headline-sm text-charcoal mb-2">Ambientaciones</h3>
+<p class="font-body-md text-charcoal/80">Transformación integral de espacios a través de la iluminación, textiles y disposición arquitectónica.</p>
+</div>
+</div>
+</div>
+</section>
+<hr class="separator-gold">
+
+<!-- Galería Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="galeria">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-stack-lg reveal">
+<div class="max-w-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.2em] mb-stack-sm block">Galería</span>
+<h2 class="font-display-lg text-headline-md text-on-surface">Curaduría Visual</h2>
+</div>
+<div class="flex gap-stack-md mt-stack-md md:mt-0 overflow-x-auto pb-2 no-scrollbar" id="gallery-filters">
+<button class="font-label-md text-label-md border-b-2 border-primary text-primary px-2 py-1 whitespace-nowrap filter-btn" data-filter="all">Todos</button>
+<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="xvanos">XV Años</button>
+<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="bodas">Bodas</button>
+<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="corporativos">Corporativos</button>
+<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="mobiliario">Mobiliario</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter compact-view" id="gallery-grid">
+<!-- Main Portfolio Grid -->
+<div class="md:col-span-8 reveal gallery-item mobiliario corporativos">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Ambientación de livings" class="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyg3sPLJ_6NDP0dNni-LJl7ky9xGVLhp8FLHPNAJwIinWAOJBnPsBEIELP-1x6QIBbzD49G96yAa4iqNxyl4OWOlEvK-aRAakiTKjI8Umk0lOS9G1h3wRXv-C4syBbMhhdiD_BRp_56dN60bSlv7wR1OAK8UwOfKY_JATw_0EQYboJHr9BRebhl_LcibUW4AbPlC94okLUcpVKXC9hbgEO2bCzm92Vh7LrzxJgEP3aEpwkId-gmsHYKR-bqp--dpsiSBCigIUaIJw"/>
+<div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-stack-lg">
+<span class="text-white font-display-lg text-headline-sm">Livings de Exterior</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 reveal gallery-item mobiliario" style="transition-delay: 150ms;">
+<div class="relative group overflow-hidden bg-surface-variant h-full rounded-lg">
+<img alt="Detalle de mobiliario" class="w-full h-[400px] md:h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu36SIsQCMi0xx-CEg60evA0Was6o8Df86wauScLChu0YviKR_3PN8KMskC2WoHDia5svQOjKJPbZhRG66GkrpZZ87zPYEc6f0x-rMiSHW0r1RwZnrzviZSoZqze00SwOXcyrhwfmYqnIVyiRdFX5CdYXsnoGAFBcvtZg7NLqco9vwdM167LRRgDIC2tSbLslA7eOb2jOPKiiYQWShkqrHXjzSPDB9Z5BxWtx8_0r2eUFygTjw74GNHLI7SHN9KfTRg1rr5KHHVKM"/>
+<div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-stack-lg">
+<span class="text-white font-display-lg text-headline-sm">Atardeceres</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 reveal gallery-item bodas">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Ceremonia" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy_0VjSiMQtM-cXEGseWZ_8fIdqu9xrXjGRVWCpmWt4M9Dx98A3sY497dbyirhw9JZHhh0TcUtRhqmYaSHvpVkEd5xRPtmUTfbE2lMUXjpsAqEOzuz7YzOycNLzYVgnN2yKYM45RvRAEyfJsJJIoT-RmOC3ocSebgkbXI7iIFNWvApOWhkq6i1up0L4wPipJOP0B3hNn3N9BNjOLHfC75rabZ45iFNKxmYXl5qFLTHPDROuKRY-p2dzdSOFtgxb5cg_loFzRAdtrE"/>
+</div>
+</div>
+<div class="md:col-span-4 reveal gallery-item bodas" style="transition-delay: 100ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Ambientación" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgNOnK3LhKglMRxY_15v22RFYFYO2B6DQttGXRCF34f-XsCcn8qIxC-Gxv1C2DwLjIaqlPB_MnuhEywbRS6fm4S3m7tvwiagyxslmZjZK55bCe9VKpb_glQqrbYgypbxJ0rk8h03wIcdUo4EzWlKCgN4mYju9AlP93SbHlpm31qB-EH7neSvNRcN3Fq-uyeOTEYBnTCWcBF3iOPrBSfHhX_shBcY_PfpBlqKOSqB_oRiVlR0tEuBBTjMMD3jEIGF7TvHPV_zzrbZE"/>
+</div>
+</div>
+<!-- Remove old bodas image to satisfy "WhatsApp Image" deletion -->
+<div class="md:col-span-6 reveal gallery-item mobiliario">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Mobiliario ratan" class="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvMkvDU66DGtN6gdWyWu02Hn7RqD_caztxoVOwxXVwEQWpWk6XMH-ZlZSTQWnIFeXwswWD7GXpqh0naroA1GJN6vPQQZlA8k2oRmekDCxcEFYYOK_Wl4ME85s-EfXeCzbrscpdUGcf0UPQZn7CZsIM-jiCugKbG46V-_Hjzqkeo2QdauStCPi94ghzaDYLqUNchr6IlatA9dZmqLsZ7iAOt7wio58g5NAdqBvpiY_aDw8J-F3IMv2ZJYv1Y4tVjH4bITQsY2U93fQ"/>
+<div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-stack-lg">
+<span class="text-white font-display-lg text-headline-sm">Estilo Rattan</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-6 reveal gallery-item corporativos mobiliario" style="transition-delay: 150ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Livings modernos" class="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWLog8wYgkqimgumPBxfZ0D6qmkVYwUDa6nDjQOHKGobBjHyxjme4Nm54jcckT6jdHQiU8IkHWuYmynO2akJPOYQCFdj74pCcBF4gWF2_eQlR9VPFLNYbMYfWJCPDa9iR-voJP5TsD8TcryjMwAIikQU70yS5jxhVel_40seTdzM7BpniSc8xKsnkzXSYenVzexi4ynESq_oekKg2K21ijuFu5XMPtxv1PVjMUxCsMDbvI8rVP9YZ9mO0tVqUH8R6Uc41ROvz_LTs"/>
+<div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-stack-lg">
+<span class="text-white font-display-lg text-headline-sm">Eventos Modernos</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 reveal gallery-item mobiliario">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Detalle eventos" class="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA83hjfwmlzGeyTeCuJ0vCt28PooX1WHz3uvfV8JNTMEX1_DBHwryiXCH467mnawqAwPYXRA0ibzr2r2OSaCCGO56lhnjbITWGobrJ5SacAnWvaTMjVogabvpFt4SDupErE5D_cmihwKcqH_Y6jG6ED9jbrLiTXik0dtLga7z5-SMReJskPD4O1q5voAAmaIYynQPqXVn_p8eTVCC_u4_nej42_4WjkJR-xRERN_osDG1jetOZgJywbnE8CfmGeubfGZGkiWwJD2DY"/>
+</div>
+</div>
+<div class="md:col-span-8 reveal gallery-item bodas corporativos" style="transition-delay: 200ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Mesas decoradas" class="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSW_Gwpt-5HWsQB36zWyeMB6usTk_2guiWYUbzl_lF0bpyy4SfYKbSEU3zvl-Jwr-v0mmcjuD0rGnNqtBVs9fpkE7HH1j79tMeYFUGf6ox3oGeY4SvE5Vmx1Lsocc13ICmmtTUAE6H3MxIJMImAXxrenfvgP1YBIbBk8FdqMcLkcpcZV2B9kmcnPeQ-BNyFm_TcM1eQV19toMzzPXQ2yecuqx3J2z46QWqPuiYzgeZMn8McF9HfaHXMdEzcKCJ4gDScaBnzTrmeq4"/>
+</div>
+</div>
+<!-- Nuevas fotos de Bodas -->
+<div class="md:col-span-6 reveal gallery-item bodas" style="transition-delay: 100ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Ceremonia Boda" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781482938865.jpg"/>
+</div>
+</div>
+<div class="md:col-span-6 reveal gallery-item bodas" style="transition-delay: 200ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Sillas para ceremonia" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781482938874.jpg"/>
+</div>
+</div>
+<div class="md:col-span-6 reveal gallery-item bodas" style="transition-delay: 300ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Ceremonia al atardecer" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781482938892.jpg"/>
+</div>
+</div>
+<div class="md:col-span-6 reveal gallery-item bodas" style="transition-delay: 400ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Camino al altar" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781482939038.jpg"/>
+</div>
+</div>
+<!-- Nuevas fotos de XV Años -->
+<div class="md:col-span-6 reveal gallery-item xvanos" style="transition-delay: 100ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Mesa Principal XV Años" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781483100656.jpg"/>
+</div>
+</div>
+<div class="md:col-span-6 reveal gallery-item xvanos" style="transition-delay: 200ms;">
+<div class="relative group overflow-hidden bg-surface-variant rounded-lg">
+<img alt="Cartel de Bienvenida XV Años" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/media__1781483100751.jpg"/>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contacto Section -->
+<section class="py-section-gap bg-navy-dark" id="contacto">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-section-gap items-center mb-stack-lg">
+<div class="reveal">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.2em] mb-stack-sm block">Contacto</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-md text-ivory mb-stack-lg">Comencemos a planificar</h2>
+<p class="font-body-md text-ivory-dark mb-stack-lg leading-relaxed">
+                    Estamos listos para transformar tu idea en una realidad inolvidable. Visítanos en nuestra ubicación en Jáuregui o contáctanos directamente por WhatsApp.
+                </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-lg">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">chat</span>
+<div>
+<h4 class="font-label-md text-label-md text-ivory">WhatsApp</h4>
+<a class="font-body-md text-ivory-dark hover:text-primary transition-colors" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">+54 9 2323 55-1161</a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">photo_camera</span>
+<div>
+<h4 class="font-label-md text-label-md text-ivory">Instagram</h4>
+<a class="font-body-md text-ivory-dark hover:text-primary transition-colors" href="https://www.instagram.com/azullivingslujan/" target="_blank">@azullivingslujan</a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">location_on</span>
+<div>
+<h4 class="font-label-md text-label-md text-ivory">Ubicación</h4>
+<a class="font-body-md text-ivory-dark hover:text-primary transition-colors" href="https://www.google.com/maps/search/?api=1&amp;query=8+de+Diciembre+127+Jauregui+Buenos+Aires" target="_blank">8 de diciembre 127 jauregui</a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary/10 rounded-lg">schedule</span>
+<div>
+<h4 class="font-label-md text-label-md text-ivory">Horarios</h4>
+<p class="font-body-md text-ivory-dark">De lunes a jueves estaremos preparando sus cotizaciones, los fines de semana nos dedicaremos exclusivamente a los clientes que tengan su evento ese día</p>
+</div>
+</div>
+</div>
+</div>
+<div class="reveal" style="transition-delay: 200ms;">
+<div class="bg-primary text-on-primary p-stack-lg md:p-stack-xl editorial-shadow h-full flex flex-col justify-center items-center text-center rounded-lg">
+<span class="material-symbols-outlined text-6xl mb-stack-md">chat_bubble</span>
+<h3 class="font-display-lg text-headline-md mb-stack-md">¿Hablamos ahora?</h3>
+<p class="font-body-md text-on-primary/90 mb-stack-lg max-w-xs">
+                        Nuestra vía de contacto más rápida es WhatsApp. Resolvemos todas tus dudas al instante para tu próximo evento.
+                    </p>
+<a aria-label="Contactar por WhatsApp" class="inline-flex items-center gap-2 bg-white text-primary px-10 py-4 rounded-full font-label-md text-label-md hover:shadow-xl transition-all duration-300 magnetic-btn" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">
+<span>Contactar por WhatsApp</span>
+<span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<div class="reveal mt-section-gap w-full rounded-lg overflow-hidden editorial-shadow h-[400px]">
+<iframe allowfullscreen="" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.261908493631!2d-59.13543888476839!3d-34.58285998046755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc796e62c1bbab%3A0xc6eb9104db80dc1f!2s8%20de%20Diciembre%2C%20Pueblo%20Nuevo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1689254000000!5m2!1sen!2sar"></iframe>
+</div>
+</div>
+</section>
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-margin-mobile right-margin-mobile z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center group animate-pulse-soft" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">
+<svg class="w-7 h-7" fill="currentColor" viewbox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.891-11.891 11.891-2.011 0-3.98-.509-5.722-1.474l-6.273 1.692zm6.749-3.836l.484.287c1.413.84 3.052 1.285 4.717 1.285 4.895 0 8.878-3.981 8.878-8.875 0-2.372-.924-4.602-2.603-6.281s-3.909-2.601-6.276-2.601c-4.897 0-8.878 3.981-8.878 8.875 0 1.694.469 3.344 1.356 4.786l.314.512-1.012 3.693 3.791-1.021zm10.967-8.135c-.301-.151-1.781-.878-2.057-.978-.275-.1-.475-.151-.675.151-.2.301-.776.978-.951 1.178-.175.201-.351.226-.651.076-.301-.151-1.27-.468-2.42-1.494-.894-.797-1.496-1.783-1.671-2.084-.175-.301-.019-.463.131-.613.135-.135.301-.351.451-.526.151-.176.201-.301.301-.501.1-.2.05-.376-.025-.526-.075-.151-.675-1.628-.926-2.232-.244-.588-.493-.509-.675-.519-.175-.009-.375-.011-.576-.011s-.525.075-.8.376c-.275.301-1.051 1.027-1.051 2.506s1.076 2.906 1.226 3.107c.151.201 2.118 3.235 5.132 4.536.717.31 1.277.495 1.711.633.721.23 1.377.197 1.895.12.578-.087 1.781-.728 2.032-1.428.25-.7.25-1.301.175-1.428-.075-.126-.275-.201-.576-.351z"></path></svg>
+<span class="absolute right-full mr-4 bg-white text-on-surface py-2 px-4 rounded-lg text-sm shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-medium">¿Hablamos por WhatsApp?</span>
+</a>
+<!-- Footer -->
+<footer class="w-full mt-section-gap bg-navy-darker border-t border-gold/10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop py-section-gap max-w-container-max mx-auto">
+<div class="reveal">
+<span class="font-display-lg text-headline-md text-primary mb-stack-md block">Azul Livings Luján</span>
+<p class="font-body-md text-ivory/70 max-w-xs">
+                Elevando el estándar de los eventos sociales y corporativos en Luján y alrededores desde 2012.
+            </p>
+</div>
+<div class="reveal" style="transition-delay: 100ms;">
+<h4 class="font-label-md text-label-md text-ivory uppercase tracking-widest mb-stack-md">Enlaces</h4>
+<div class="flex flex-col gap-2">
+<a class="font-body-md text-ivory/80 hover:text-primary underline transition-all" href="https://www.instagram.com/azullivingslujan/" target="_blank">Instagram</a>
+<a class="font-body-md text-ivory/80 hover:text-primary underline transition-all" href="https://wa.me/5492323551161?text=Hola!%20Vi%20su%20web%20y%20quiero%20consultar%20por%20mi%20evento" target="_blank">WhatsApp</a>
+<a class="font-body-md text-ivory/80 hover:text-primary underline transition-all" href="https://drive.google.com/drive/u/0/folders/153Fg_eG-hMrLhLIScl4BUJt6Z3Zq59hC?fbclid=PAb21jcARXNX9leHRuA2FlbQIxMQABp024wJ6a9JAhAJi_LkuHm_N9rEUjYRkb8VuA25LH7JvAfkC8yHCbn-QS3U2g_aem_0x0HzdUktQHWjzJ_QgHxYw" target="_blank">Catálogo Digital</a>
+<a class="font-body-md text-ivory/80 hover:text-primary underline transition-all" href="https://www.google.com/maps/search/?api=1&amp;query=8+de+Diciembre+127+Jauregui+Buenos+Aires" target="_blank">Nuestra Ubicación</a>
+</div>
+</div>
+<div class="reveal" style="transition-delay: 200ms;">
+<h4 class="font-label-md text-label-md text-ivory uppercase tracking-widest mb-stack-md">Nosotros</h4>
+<p class="font-label-sm text-label-sm text-ivory/70 mb-stack-md">Creamos espacios para disfrutar. Mobiliario y ambientación para eventos inolvidables.</p>
+<p class="mt-stack-lg font-label-sm text-label-sm text-ivory/50">
+                © 2024 Azul Livings Luján. Estilismo de Eventos.
+            </p>
+</div>
+</div>
+</footer>
+<!-- Lightbox Modal -->
+<div id="lightbox" class="fixed inset-0 z-[100] bg-black/90 items-center justify-center opacity-0 transition-opacity duration-300" style="display: none;">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white hover:text-primary transition-colors z-10">
+        <span class="material-symbols-outlined text-4xl">close</span>
+    </button>
+    <button id="lightbox-prev" class="absolute left-4 md:left-10 text-white hover:text-primary transition-colors p-2 bg-black/50 hover:bg-black/80 rounded-full z-10">
+        <span class="material-symbols-outlined text-4xl md:text-5xl">chevron_left</span>
+    </button>
+    <img id="lightbox-img" src="" alt="Vista ampliada" class="max-h-[85vh] max-w-[85vw] object-contain rounded-lg shadow-2xl transition-all duration-300 scale-95" />
+    <button id="lightbox-next" class="absolute right-4 md:right-10 text-white hover:text-primary transition-colors p-2 bg-black/50 hover:bg-black/80 rounded-full z-10">
+        <span class="material-symbols-outlined text-4xl md:text-5xl">chevron_right</span>
+    </button>
+</div>
+<script>
+    // Reveal animation on scroll
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 0; // Tolerance modified
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("load", reveal);
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const closeBtn = document.getElementById('close-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuLinks = mobileMenu.querySelectorAll('a');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.remove('translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+        mobileMenu.classList.add('translate-x-full');
+    });
+
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('translate-x-full');
+        });
+    });
+
+    // Header scroll effect
+    const header = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('py-1', 'shadow-md');
+            header.classList.remove('py-2');
+        } else {
+            header.classList.remove('py-1', 'shadow-md');
+            header.classList.add('py-2');
+        }
+    });
+
+    // Smooth scroll for anchors
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            e.preventDefault();
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Gallery Filter Logic
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active classes from all buttons
+            filterBtns.forEach(b => {
+                b.classList.remove('border-b-2', 'border-primary', 'text-primary');
+                b.classList.add('text-on-surface-variant');
+            });
+            // Add active class to clicked button
+            btn.classList.add('border-b-2', 'border-primary', 'text-primary');
+            btn.classList.remove('text-on-surface-variant');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            galleryItems.forEach(item => {
+                if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                    item.classList.remove('hidden');
+                    // Small delay to allow display:block to apply before transition
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'scale(1)';
+                    }, 50);
+                } else {
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.95)';
+                    // Wait for transition to finish before hiding completely
+                    setTimeout(() => {
+                        item.classList.add('hidden');
+                    }, 500);
+                }
+            });
+            
+            const galleryGrid = document.getElementById('gallery-grid');
+            if (filterValue === 'all') {
+                galleryGrid.classList.add('compact-view');
+                galleryGrid.classList.remove('filtered-view');
+            } else {
+                galleryGrid.classList.remove('compact-view');
+                galleryGrid.classList.add('filtered-view');
+            }
+
+            // Re-trigger reveal animations for newly shown items
+            setTimeout(reveal, 600);
+        });
+    });
+
+    // Lightbox Logic
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxNext = document.getElementById('lightbox-next');
+    const lightboxPrev = document.getElementById('lightbox-prev');
+    const galleryImages = Array.from(document.querySelectorAll('.gallery-item img'));
+    
+    let currentImageIndex = 0;
+    
+    // Get only currently visible images (respecting the filter)
+    function getVisibleImages() {
+        return galleryImages.filter(img => {
+            const item = img.closest('.gallery-item');
+            return !item.classList.contains('hidden');
+        });
+    }
+
+    function openLightbox(index, visibleImgs) {
+        currentImageIndex = index;
+        lightboxImg.src = visibleImgs[currentImageIndex].src;
+        lightbox.style.display = 'flex';
+        // Trigger reflow for transition
+        void lightbox.offsetWidth;
+        lightbox.classList.remove('opacity-0');
+        lightboxImg.classList.remove('scale-95');
+        lightboxImg.classList.add('scale-100');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+    }
+
+    function closeLightbox() {
+        lightbox.classList.add('opacity-0');
+        lightboxImg.classList.remove('scale-100');
+        lightboxImg.classList.add('scale-95');
+        setTimeout(() => {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = '';
+        }, 300);
+    }
+
+    function showNextImage(visibleImgs) {
+        currentImageIndex = (currentImageIndex + 1) % visibleImgs.length;
+        lightboxImg.style.opacity = '0';
+        setTimeout(() => {
+            lightboxImg.src = visibleImgs[currentImageIndex].src;
+            lightboxImg.style.opacity = '1';
+        }, 150);
+    }
+
+    function showPrevImage(visibleImgs) {
+        currentImageIndex = (currentImageIndex - 1 + visibleImgs.length) % visibleImgs.length;
+        lightboxImg.style.opacity = '0';
+        setTimeout(() => {
+            lightboxImg.src = visibleImgs[currentImageIndex].src;
+            lightboxImg.style.opacity = '1';
+        }, 150);
+    }
+
+    const galleryItemsContainers = document.querySelectorAll('.gallery-item');
+    galleryItemsContainers.forEach((item) => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const img = item.querySelector('img');
+            const visibleImgs = getVisibleImages();
+            // Fallback: match by src if indexOf fails
+            let index = visibleImgs.indexOf(img);
+            if (index === -1) {
+                index = visibleImgs.findIndex(vImg => vImg.src === img.src);
+            }
+            if(index > -1) {
+                openLightbox(index, visibleImgs);
+            }
+        });
+    });
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    
+    lightboxNext.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showNextImage(getVisibleImages());
+    });
+    
+    lightboxPrev.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showPrevImage(getVisibleImages());
+    });
+
+    // Close when clicking outside image
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (lightbox.style.display === 'flex') {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') showNextImage(getVisibleImages());
+            if (e.key === 'ArrowLeft') showPrevImage(getVisibleImages());
+        }
+    });
+
+    // Parallax Effect
+    const parallaxWrapper = document.querySelector('.parallax-wrapper');
+    window.addEventListener('scroll', () => {
+        let scrollPos = window.pageYOffset;
+        if(scrollPos < window.innerHeight) {
+            parallaxWrapper.style.transform = `translateY(${scrollPos * 0.4}px)`;
+        }
+    });
+
+    // Magnetic Buttons Effect
+    const magneticBtns = document.querySelectorAll('.magnetic-btn');
+    magneticBtns.forEach(btn => {
+        btn.addEventListener('mousemove', (e) => {
+            const rect = btn.getBoundingClientRect();
+            const x = e.clientX - rect.left - rect.width / 2;
+            const y = e.clientY - rect.top - rect.height / 2;
+            btn.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
+        });
+        btn.addEventListener('mouseleave', () => {
+            btn.style.transform = `translate(0px, 0px)`;
+        });
+    });
+</script>
+
+</body></html>
