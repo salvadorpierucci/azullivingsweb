@@ -154,18 +154,30 @@
         }
         /* Vista compacta para Galería "Todas" */
         .compact-view .gallery-item img {
-            height: 250px !important;
+            height: 120px !important;
         }
         /* Vista filtrada para evitar huecos */
         .filtered-view .gallery-item img {
-            height: 300px !important;
+            height: 120px !important;
         }
+        
+        /* 3 fotos por fila en móvil (12 / 4 = 3) */
+        .compact-view .gallery-item, .filtered-view .gallery-item {
+            grid-column: span 4 / span 4 !important;
+        }
+
         @media (min-width: 768px) {
-            /* 4 fotos por fila en "Todas" */
+            .compact-view .gallery-item img {
+                height: 250px !important;
+            }
+            .filtered-view .gallery-item img {
+                height: 300px !important;
+            }
+            /* 4 fotos por fila en "Todas" para desktop */
             .compact-view .gallery-item {
                 grid-column: span 3 / span 3 !important;
             }
-            /* 3 fotos por fila al filtrar */
+            /* 3 fotos por fila al filtrar para desktop */
             .filtered-view .gallery-item {
                 grid-column: span 4 / span 4 !important;
             }
@@ -239,7 +251,7 @@
 </div>
 <div class="md:pl-stack-lg reveal" style="transition-delay: 200ms;">
 <span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.2em] mb-stack-md block">Nuestra Historia</span>
-<h2 class="font-display-lg text-display-lg-mobile md:text-headline-md text-on-surface mb-stack-lg">Mariela &amp; El arte de recibir</h2>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-md text-on-surface mb-stack-lg">Azullivings</h2>
 <div class="space-y-stack-md font-body-md text-on-surface-variant leading-relaxed">
 <p>Azul Livings Luján nació en 2012 con la convicción de que cada encuentro merece ser celebrado en un entorno que refleje la esencia de quienes lo protagonizan.</p>
 <p>Mariela, fundadora y alma creativa, ha dedicado más de una década a curar piezas de mobiliario y diseñar atmósferas que fusionan la sofisticación con la calidez argentina.</p>
@@ -303,14 +315,13 @@
 <h2 class="font-display-lg text-headline-md text-on-surface">Curaduría Visual</h2>
 </div>
 <div class="flex gap-stack-md mt-stack-md md:mt-0 overflow-x-auto pb-2 no-scrollbar" id="gallery-filters">
-<button class="font-label-md text-label-md border-b-2 border-primary text-primary px-2 py-1 whitespace-nowrap filter-btn" data-filter="all">Todos</button>
 <button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="xvanos">XV Años</button>
-<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="bodas">Bodas</button>
+<button class="font-label-md text-label-md border-b-2 border-primary text-primary px-2 py-1 whitespace-nowrap filter-btn" data-filter="bodas">Bodas</button>
 <button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="corporativos">Corporativos</button>
 <button class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors px-2 py-1 whitespace-nowrap filter-btn" data-filter="mobiliario">Mobiliario</button>
 </div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter compact-view" id="gallery-grid">
+<div class="grid grid-cols-12 gap-gutter compact-view" id="gallery-grid">
 <!-- Main Portfolio Grid -->
 <div class="md:col-span-8 reveal gallery-item mobiliario corporativos">
 <div class="relative group overflow-hidden bg-surface-variant rounded-lg">
@@ -616,6 +627,13 @@
             setTimeout(reveal, 600);
         });
     });
+
+    // Initialize gallery with "Bodas" selected so it doesn't show all photos
+    const defaultFilterBtn = document.querySelector('[data-filter="bodas"]');
+    if (defaultFilterBtn) {
+        // Use timeout 0 to ensure DOM is fully ready
+        setTimeout(() => defaultFilterBtn.click(), 0);
+    }
 
     // Lightbox Logic
     const lightbox = document.getElementById('lightbox');
